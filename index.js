@@ -8,7 +8,7 @@ const port = 9000;
 const app = express();
 
 // Create GET request
-app.get("/", (req, res) => {
+app.get("/home", (req, res) => {
   // res.send("Express on Vercel");
   res.json({ message: "Hello From Express App" });
 });
